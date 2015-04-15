@@ -1,0 +1,49 @@
+.x-animated-icon-element-container {
+    -webkit-transform: rotate(-90deg);
+    transition: all 0.33s ease;
+}
+
+.x-animated-icon-element-container-2 {
+    transition: all 0.33s ease;
+}
+
+.x-icon-element-top {
+    height: 0px;
+    width: 0px;
+    border-top: .375em solid $base-color;
+    border-left: 1em solid $base-color;
+    border-right: 1em solid $base-color;
+    border-bottom: .375em solid $base-color;
+    margin-bottom: .5em;
+    transition: all 0.2s ease-in-out;
+}
+
+.x-icon-element-bottom {
+    height: 0px;
+    width: 0px;
+    border-top: .375em solid $base-color;
+    border-left: 1em solid $base-color;
+    border-right: 1em solid $base-color;
+    border-bottom: .375em solid $base-color;
+    transition: all 0.2s ease-in-out;
+}
+
+.x-icon-element-top-2 {
+    height: 0px;
+    width: 0px;
+    border-top: .5em solid transparent;
+    border-left: 1em solid $base-color;
+    border-right: 1em solid transparent;
+    border-bottom: .5em solid $base-color;
+    transition: all 0.2s ease-in-out;
+}
+
+.x-icon-element-bottom-2 {
+    height: 0px;
+    width: 0px;
+    border-top: .5em solid $base-color;
+    border-left: 1em solid $base-color;
+    border-right: 1em solid transparent;
+    border-bottom: .5em solid transparent;
+    transition: all 0.2s ease-in-out;
+}
