@@ -2,6 +2,8 @@
 
 This is a quick project I whipped up after the Material Design seminar at SenchaCon. This is a custom component extended from component, not button so it does not have all the same capabilities as a normal button (badges, etc). For the purposes of a demo, I have used a play/pause button, but other icons are possible, and I might implement them later on. 
 
+[Demo - Sencha Fiddle](https://fiddle.sencha.com/#fiddle/lc3)
+
 ## Installation:
 
 - Copy AnimatedIconButton.js to app/ux/AnimatedIconButton.js
