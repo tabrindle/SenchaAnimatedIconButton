@@ -1,6 +1,6 @@
 # Sencha Animated Icon Button
 
-This is a quick project I whipped up after the Material Design seminar at SenchaCon. This is a custom component extended from component, not button so it does not have all the same capabilities as a normal button (badges, etc)
+This is a quick project I whipped up after the Material Design seminar at SenchaCon. This is a custom component extended from component, not button so it does not have all the same capabilities as a normal button (badges, etc). For the purposes of a demo, I have used a play/pause button, but other icons are possible, and I might implement them later on. 
 
 ## Installation:
 
@@ -23,8 +23,8 @@ Ext.Loader.setPath({
 ```
   xtype: 'AnimatedIconButton'
 ```
-- You may also configure a handler or controller listener for this button.
+- You may also configure a handler for this button.
 
 ## Notes
-- The actually animated icon in here uses 3 divs and borders, rather than the typical icon font.
+- The actual icon here uses 3 divs and borders, rather than the typical icon font.
 - Free beer to anyone who makes this better, easier to install, more performant, or more universally adapted.
