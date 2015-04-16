@@ -50,27 +50,5 @@ Ext.define('Ext.ux.AnimatedIconButton', {
     	}
 
     	this.fireAction('tap', [this, e], 'doTap');
-    },
-  
-    /**
-     * @private
-     */
-    doTap: function(me, e) {
-        var handler = me.getHandler(),
-            scope = me.getScope() || me;
-
-        if (!handler) {
-            return;
-        }
-
-        if (typeof handler == 'string') {
-            handler = scope[handler];
-        }
-
-        if (e && e.preventDefault) {
-            e.preventDefault();
-        }
-
-        handler.apply(scope, arguments);
     }
 });
